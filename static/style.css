@@ -1,0 +1,23 @@
+body{
+    background-color: #F0E5CF;
+    text-align: center;
+}
+.box{
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.text{
+    display: block;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,8 +1,6 @@
 # FlightFare-Prediction
 Flight ticket prices can be something hard to guess, today we might see a price, check out the price of the same flight tomorrow, it will be a different story. We might have often heard travelers saying that flight ticket prices are so unpredictable. As data scientists, we are gonna prove that given the right data anything can be predicted. Here you will be provided with prices of flight tickets for various airlines between the months of March and June of 2019 and between various cities. <br>
 
-<img src="https://user-images.githubusercontent.com/78750315/130562924-4ed4e249-0657-4a03-b75e-cf4d4c5b0c24.jpg" width="600" height="400">
-
 
 ### Features
 The train dataset contains 11 features and 10684 Records

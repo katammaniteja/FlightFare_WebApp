@@ -35,15 +35,15 @@
     <div class="body">
         <form action="/predict" method="POST">
             <div class="box">
-                <span class="text">Departure Date</span>
+                <span class="text">Departure Time</span>
                 <input type="datetime-local" name="Deptime" required="required">
             </div>
             <div class="box">
-                <span class="text">Arrival Date</span>
+                <span class="text">Arrival Time</span>
                 <input type="datetime-local" name="arrtime" required="required">
             </div>
             <div class="box">
-                <span class="text">Source</span>
+                <span class="text">Select Source</span>
                 <select name="Source" id="source" required="required">
                     <option value="Mumbai">Mumbai</option>
                     <option value="Delhi">Delhi</option>
@@ -54,7 +54,7 @@
                 </select>
             </div>
             <div class="box">
-                <span class="text">Destination</span>
+                <span class="text">Select Destination</span>
                 <select name="Destination" id="Destination" required="required">
                     <option value="Kolkata">Kolkata</option>
                     <option value="banglore">Banglore</option>
@@ -65,9 +65,9 @@
                 </select>
             </div>
             <div class="box">
-                <span class="text">Stoppage</span>
+                <span class="text">Select Stops</span>
                 <select name="stops" required="required">
-                    <option value="0">Non-Stop</option>
+                    <option value="0">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -75,7 +75,7 @@
                 </select>
             </div>
             <div class="box">
-                <span class="text">In which Airline you want to travel?</span>
+                <span class="text">Select Airline</span>
                 <select name="airline" id="airline" required="required">
                     <option value="Air India">Air India</option>
                     <option value="IndiGo">IndiGo</option>
